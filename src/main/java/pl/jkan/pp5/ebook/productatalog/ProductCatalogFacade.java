@@ -3,11 +3,17 @@ package pl.jkan.pp5.ebook.productatalog;
 import java.util.List;
 
 public class ProductCatalogFacade {
-    public void addBook(Book book) {
+    private BookRepository repository;
 
+    public ProductCatalogFacade(BookRepository repository) {
+        this.repository = repository;
+    }
+
+    public void addBook(Book book) {
+        repository.save(book);
     }
 
     public List<Book> allBooks() {
-        return null;
+        return repository.findAll();
     }
 }
