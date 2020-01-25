@@ -12,11 +12,12 @@ import javax.persistence.Id;
 import java.math.BigDecimal;
 
 @AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Builder
 @Entity
 public class Book {
+
+    private Book() {}
     @Id
     @GeneratedValue
     Long id;
