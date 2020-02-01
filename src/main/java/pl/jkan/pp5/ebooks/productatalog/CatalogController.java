@@ -1,4 +1,4 @@
-package pl.jkan.pp5.ebook.productatalog;
+package pl.jkan.pp5.ebooks.productatalog;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

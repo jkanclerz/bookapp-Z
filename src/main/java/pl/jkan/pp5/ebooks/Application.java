@@ -1,4 +1,4 @@
-package pl.jkan.pp5.ebook;
+package pl.jkan.pp5.ebooks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

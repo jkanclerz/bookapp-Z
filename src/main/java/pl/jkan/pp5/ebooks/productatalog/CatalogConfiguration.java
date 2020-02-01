@@ -1,4 +1,4 @@
-package pl.jkan.pp5.ebook.productatalog;
+package pl.jkan.pp5.ebooks.productatalog;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

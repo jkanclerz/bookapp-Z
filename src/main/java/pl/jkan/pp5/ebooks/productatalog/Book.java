@@ -1,9 +1,8 @@
-package pl.jkan.pp5.ebook.productatalog;
+package pl.jkan.pp5.ebooks.productatalog;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
